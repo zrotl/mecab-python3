@@ -8,6 +8,7 @@
  * interface file instead.
  * ----------------------------------------------------------------------------- */
 
+#define NULL (void*)0
 
 #ifndef SWIGPYTHON
 #define SWIGPYTHON
