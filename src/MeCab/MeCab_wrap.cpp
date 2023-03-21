@@ -6739,14 +6739,14 @@ SWIGINTERN int _wrap_new_Model__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObjec
         } else {
           PyErr_SetString(PyExc_TypeError,"list must contain strings");
           free(arg2);
-          #return NULL;
+          /* return NULL; */
 	  return 0;
         }
       }
       arg2[i] = 0;
     } else {
       PyErr_SetString(PyExc_TypeError,"not a list");
-      #return NULL;
+      /* return NULL; */
       return 0;
     }
   }
@@ -7685,14 +7685,14 @@ SWIGINTERN int _wrap_new_Tagger__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObje
         } else {
           PyErr_SetString(PyExc_TypeError,"list must contain strings");
           free(arg2);
-          #return NULL;
+          /* return NULL; */
 	  return 0;
         }
       }
       arg2[i] = 0;
     } else {
       PyErr_SetString(PyExc_TypeError,"not a list");
-      #return NULL;
+      /* return NULL; */
       return 0;
     }
   }
